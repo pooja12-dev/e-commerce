@@ -2,7 +2,7 @@ import React from "react";
 
 const navLeft = [
   { name: "Shop", href: "#" },
-  { name: "Campaigns", href: "#" },
+  { name: "Campaigns", href: "/campaigns" },
   { name: "Stockists", href: "#" },
 ];
 

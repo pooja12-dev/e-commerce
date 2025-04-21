@@ -10,6 +10,7 @@ import MotifGraphic from "../components/MotifGraphic";
 import Footer from "../components/Footer";
 import SplashScreen from "../components/SplashScreen";
 import { useEffect } from "react";
+import BasicLayoutWithCarousel from "../components/BasicLayoutWithCarousel";
 
 // Example assets and data (replace with your own or use provided links)
 const heroVideoUrl =
@@ -85,14 +86,15 @@ function Home() {
     <div className="bg-neutral-50 min-h-screen flex flex-col">
       <Header />
       <HeroImage videoUrl={heroVideoUrl} alt="Coastal scene with model" />
-      <ImageCollage images={collageImages} />
+      <ImageCollage />
       {showEditorial && (
         <EditorialBlock
           text="INTERNATIONAL CUSTOMERS: There are no customs duties, taxes or tariffs to pay on our shipments."
           onClose={() => setShowEditorial(false)}
         />
       )}
-      <SectionTitle>LATEST CREATIONS</SectionTitle>
+      <BasicLayoutWithCarousel />
+      <SectionTitle></SectionTitle>
       <ProductGrid products={products} />
       <LifestyleSection
         collageImages={lifestyleCollage}
