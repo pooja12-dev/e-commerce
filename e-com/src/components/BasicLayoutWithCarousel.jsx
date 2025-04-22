@@ -25,7 +25,7 @@ export default function BasicLayoutWithCarousel() {
   return (
     <div className="flex flex-col md:flex-row w-full h-screen">
       {/* Left div - Image carousel */}
-      <div className="w-2/3 p-20 md:w-1/2  relative overflow-hidden">
+      <div className="w-20 p-20 mr-28 ml-28  h-full md:w-1/2  relative overflow-hidden">
         {carouselImages.map((src, index) => (
           <div
             key={index}

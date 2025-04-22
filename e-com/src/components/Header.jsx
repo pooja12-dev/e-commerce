@@ -7,16 +7,16 @@ const navLeft = [
 ];
 
 const navRight = [
-  { name: "Ethos", href: "#" },
+  { name: "Ethos", href: "/ethos" },
   { name: "Press", href: "#" },
-  { name: "About", href: "#" },
+  { name: "About", href: "/about" },
   { name: "Bag (0)", href: "#" },
 ];
 
 function Header() {
   return (
-    <header className="w-full uppercase !bg-transparent  hover:bg-white  sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4 md:px-8">
+    <header className="w-full h-20 uppercase !bg-transparent  hover:bg-white  sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto flex items-center justify-between py-6 px-4 md:px-8">
         <nav className="flex-1 flex gap-5 text-xs md:text-sm justify-start font-serif">
           {navLeft.map((link) => (
             <a

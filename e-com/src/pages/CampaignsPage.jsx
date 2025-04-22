@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const CampaignsPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div>hii</div>;
+};
 
-export default CampaignsPage
+export default CampaignsPage;

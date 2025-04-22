@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Flamingo and Lion Earrings",
+    "price": "£565",
+    "status": "Ready to ship"
+  },
+  {
+    "id": 2,
+    "name": "Sailboat and Shell Earrings",
+    "price": "£375",
+    "status": ""
+  },
+  {
+    "id": 3,
+    "name": "Double Detachable Victorian Drop Earrings",
+    "price": "£375",
+    "status": "Ready to ship"
+  },
+  {
+    "id": 4,
+    "name": "Detachable Victorian Drop Earrings",
+    "price": "£285",
+    "status": ""
+  },
+  {
+    "id": 5,
+    "name": "Gold Charm Earrings",
+    "price": "£425",
+    "status": "Ready to ship"
+  },
+  {
+    "id": 6,
+    "name": "Teardrop Crystal Earrings",
+    "price": "£340",
+    "status": ""
+  }
+]
