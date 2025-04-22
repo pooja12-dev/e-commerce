@@ -93,11 +93,11 @@ function Header() {
         </div>
       </header>
       {/*hidden on small and middle*/}
-      <header className=" lg:hidden md:hidden text-gray-600 w-full py-4 px-6">
+      <header className=" lg:hidden md:hidden text-gray-600 w-full py-4 px-6 bg-none">
         <div className="flex justify-between items-center max-w-6xl mx-auto">
           <button className="text-sm font-medium">MENU</button>
 
-          <div className="flex-[0_1_220px] flex items-center justify-center">
+          <div className="flex-[0_1_220px] flex items-center bg-transparent justify-center">
             <a href="#" className="inline-block">
               {/* Add your logo SVG or any other logo */}
               <svg

@@ -3,7 +3,7 @@ import React from "react";
 function HeroImage({ videoUrl, alt }) {
   return (
     <div
-      className="w-full h-[46vw] min-h-[450px] max-h-[700px] relative overflow-hidden"
+      className="w-full  min-h-[600px]  md:min-h-[450px] relative overflow-hidden"
       aria-label={alt}
     >
       <video
