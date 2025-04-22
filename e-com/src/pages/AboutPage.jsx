@@ -13,31 +13,37 @@ const AboutPage = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section>
+          {/* Image for small screens */}
+          <img
+            src="/our-story-sm.webp"
+            alt="Our Story Small Screen"
+            className="block md:hidden w-full h-screen object-cover"
+          />
+
+          {/* Image for medium and larger screens */}
           <img
             src="/our-story.webp"
             alt="Our Story"
-            className="w-full h-auto"
+            className="hidden md:block w-full h-auto"
           />
         </section>
 
         {/* Feature Section */}
         <section className="module-smallness w-full md:w-[86vw] max-w-7xl mx-auto my-[10vmax] px-8 xl:px-0 grid grid-cols-1 md:grid-cols-2 gap-0">
           {/* Text Section */}
-          <div className="col-span-1 flex flex-col justify-center">
-            <h2 className="font-serif text-slate-800 uppercase text-[40px] sm:text-[70px] md:text-[80px] lg:text-[90px] leading-[0.9] tracking-tight">
-              <div className="flex items-center mb-4">
+          <div className="col-span-1 flex flex-col justify-center items-end ">
+            <h2 className="font-serif text-slate-800 uppercase text-[40px] sm:text-[70px] md:text-[80px] lg:text-[90px] leading-[0.9] tracking-tight text-right  ">
+              <span className="flex relative items-center mb-4 align-right bg-red-400">
                 <img
                   src="/about-eye.webp"
                   alt="Eye icon"
-                  className="w-12 h-12 mr-4"
+                  className="w-14 h-12 mr-4 absolute right-36"
                 />
-                THE
-              </div>
-              CULT OF
-              <br />
-              SMALL
-              <br />
-              NESS
+                <span className=" absolute right-0"> THE</span>
+              </span>
+              <span>CULT OF</span>
+              <span> SMALL</span>
+              <span> NESS</span>
             </h2>
           </div>
 

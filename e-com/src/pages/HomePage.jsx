@@ -96,15 +96,23 @@ function Home() {
       )} */}
       <BasicLayoutWithCarousel />
       <JewelryCarousel></JewelryCarousel>
-      <div className=" p-11">
+      <div className="hidden sm:block p-4 md:p-8 lg:p-11">
         <img
           src="/girl-with-ook.webp"
-          className="h-1/3 w-full p-20"
+          className="w-full h-auto object-cover"
           alt="Girl with look"
         />
       </div>
 
-      <div className="ml-44 mr-44  -mt-12 p-44 scale-95">
+      <div className="block sm:hidden p-4">
+        <img
+          src="/girl-with-look-sm.webp"
+          className="w-full h-auto object-cover"
+          alt="Girl with look mobile version"
+        />
+      </div>
+
+      <div className=" sm:block mx-4 md:mx-12 lg:mx-32 xl:mx-44 mt-4 md:-mt-8 lg:-mt-12 p-4 md:p-12 lg:p-24 xl:p-44 scale-95 lg:scale-100">
         <svg
           class="block w-full h-auto will-change-transform"
           xmlns="http://www.w3.org/2000/svg"
