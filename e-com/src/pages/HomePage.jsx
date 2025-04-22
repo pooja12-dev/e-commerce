@@ -84,7 +84,7 @@ function Home() {
   if (showSplash) return <SplashScreen />;
 
   return (
-    <div className="bg-neutral-50 min-h-screen flex flex-col">
+    <div className="bg-neutral-50 min-h-screen w-full sm:w-full md:w-full sm:overflow:x-hidden  md:overflow:x-hidden flex flex-col ">
       <Header />
       <HeroImage videoUrl={heroVideoUrl} alt="Coastal scene with model" />
       <ImageCollage />
