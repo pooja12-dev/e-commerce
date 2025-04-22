@@ -8,10 +8,18 @@ const Ethos = () => {
       <Header />
       {/* Image Section */}
       <div className="w-full">
+        {/* Image visible on lg and md */}
         <img
           src="/lady-on-desk.webp"
           alt="Lady sitting on a desk"
-          className="w-full object-cover"
+          className="hidden md:block w-full object-cover"
+        />
+
+        {/* Image visible only on sm */}
+        <img
+          src="/ethos-sm.webp"
+          alt="Alternate image for small screens"
+          className="block md:hidden w-full h-screen object-cover"
         />
       </div>
 
@@ -28,24 +36,24 @@ const Ethos = () => {
           </h1>
         </header>
 
-        <article className="space-y-6 text-sm  md:text-base text-[#34474A] text-left md:text-center max-w-2xl mx-auto">
-          <p className="h-[37px] w-[768px] font-helvetica">
+        <article className="space-y-6 text-sm md:text-base text-[#34474A] text-left md:text-center max-w-2xl mx-auto">
+          <p className="font-helvetica w-full md:max-w-xl mx-auto">
             Grainne Morton is a small business working with around ten talented
             and highly valued individuals. Our core creative and business
             activity takes place in our studio in Grainne's garden in Edinburgh.
           </p>
-          <p className="h-[37px] w-[768px] font-helvetica text-[#34474A]">
+          <p className="font-helvetica w-full md:max-w-xl mx-auto text-[#34474A]">
             Grainne's garden is a tiny but very special place. Plants and
             flowers are plentiful, encouraging local wildlife to thrive. Our
             studio is small and low impact with three of the team working there
             daily.
           </p>
-          <p className="h-[37px] w-[768px] font-helvetica text-[#34474A]">
+          <p className="font-helvetica w-full md:max-w-xl mx-auto text-[#34474A]">
             Our ethos has always been that handmade is quality made, and that
             there is beauty in breathing new life into antique and natural
             objects through our jewellery.
           </p>
-          <p className="h-[37px] w-[768px] font-helvetica text-[#34474A]">
+          <p className="font-helvetica w-full md:max-w-xl mx-auto text-[#34474A]">
             At Edinburgh College of Art in the 90s, Grainne stood out for her
             use of vintage buttons, stamps and ephemera in her pieces. Over the
             years Grainne's collections of antique and natural objects has grown
@@ -58,7 +66,7 @@ const Ethos = () => {
       </section>
 
       {/* Images Grid Section */}
-      <section className="w-full max-w-[1280px] mx-auto my-[154px] grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 bg-[#FFFFFF] text-[#34474A] p-[32px] border-box">
+      <section className="w-full max-w-[1280px] mx-auto  grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 bg-[#FFFFFF] text-[#34474A] p-[32px] border-box">
         <div className="h-[477.212px]">
           <img
             src="/shells.webp"
@@ -77,16 +85,16 @@ const Ethos = () => {
 
       {/* Callout Section */}
       <section className="text-center py-20 px-4 md:px-8 lg:px-12 mx-auto bg-white text-[#34474A] max-w-6xl">
-        <blockquote className="font-freight text-[#34474A] italic text-8xl md:text-4xl lg:text-5xl leading-snug md:leading-tight text-center max-w-4xl mx-auto">
+        <blockquote className="font-freight text-[#34474A] italic text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug sm:leading-relaxed md:leading-tight text-center max-w-4xl mx-auto">
           Central to our ethos is that making our jewellery has to be as fair
           and sustainable as possible. We achieve this in three main areas:
         </blockquote>
       </section>
 
       {/* Subsections */}
-      <section className="w-full md:w-[86vw] max-w-sm mx-auto space-y-16 my-20 px-8 md:px-0">
+      <section className="w-full md:w-[86vw] max-w-sm mx-auto space-y-16 text-center sm:text-left px-8 md:px-0">
         <article>
-          <h2 className="font-atacama text-[#34474A] uppercase text-[30px] mobile:text-[20px] text-center mb-6">
+          <h2 className="font-atacama text-[#34474A] uppercase text-[30px] mobile:text-[20px] mb-3">
             Made by hand
           </h2>
           <p className="font-helvetica text-[#34474A] text-[13px] md:text-[15px]">
@@ -98,10 +106,10 @@ const Ethos = () => {
         </article>
 
         <article>
-          <h2 className="font-atacama text-[#34474A] text-slate uppercase text-[30px] mobile:text-[20px] text-center mb-6">
+          <h2 className="font-atacama text-[#34474A] uppercase text-[30px] mobile:text-[20px] mb-6">
             Made using recycled and fairly acquired materials
           </h2>
-          <p className="font-helvetica text-[#34474A]text-[13px] md:text-[15px]">
+          <p className="font-helvetica text-[#34474A] text-[13px] md:text-[15px]">
             All of the silver we use to make our jewellery is recycled silver.
             Where possible, we re-use antique and vintage objects in our pieces.
             The gold used in our 18ct gold plating is Fairmined as defined by{" "}
@@ -110,7 +118,7 @@ const Ethos = () => {
         </article>
 
         <article>
-          <h2 className="font-atacama text-[#34474A] uppercase text-[30px] mobile:text-[20px] text-center mb-6">
+          <h2 className="font-atacama text-[#34474A] uppercase text-[30px] mobile:text-[20px] mb-6">
             Made to order
           </h2>
           <p className="font-helvetica text-[#34474A] text-[13px] md:text-[15px]">
