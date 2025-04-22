@@ -4,7 +4,7 @@ const TinyCollectionsSection = () => {
   return (
     <section className="flex flex-col md:flex-row justify-between w-full max-w-7xl mx-auto my-20 px-8 xl:px-0">
       {/* Left side text content */}
-      <div className="md:w-1/2 text-center md:text-right md:pr-16 text-slate-800">
+      <div className="md:w-1/2 text-center md:text-right md:pr-16 text-[#34474A]">
         <p className="mb-8">
           For objects so small, jewellery tends to have a rather large part to
           play in people's lives… be it an engagement ring, a gift, or a special
@@ -45,13 +45,11 @@ const TinyCollectionsSection = () => {
       </div>
 
       {/* Right side title */}
-      <div className="md:w-1/2 flex items-center mt-10 md:mt-0">
-        <h2 className="font-serif text-slate-800 text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] leading-[0.9] tracking-tight">
-          TINY
-          <br />
-          COLLE
-          <br />
-          CTIONS
+      <div className="md:w-1/2 flex items-start mt-10 md:mt-0">
+        <h2 className="font-atacama text-[#34474A] text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] leading-[0.9] tracking-tight">
+          <span className="block">TINY</span>
+          <span className="block">COLLE</span>
+          <span className="block">CTIONS</span>
         </h2>
       </div>
     </section>
