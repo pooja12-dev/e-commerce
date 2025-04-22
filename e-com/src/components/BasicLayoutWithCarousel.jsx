@@ -23,9 +23,9 @@ export default function BasicLayoutWithCarousel() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row w-full h-screen">
+    <div className="flex flex-col md:flex-row w-full my-4 ">
       {/* Left div - Image carousel */}
-      <div className="w-20 p-20 mr-28 ml-28  h-full md:w-1/2  relative overflow-hidden">
+      <div className="w-full md:w-1/2 md:mx-4 lg:h-auto relative  overflow-hidden h-96">
         {carouselImages.map((src, index) => (
           <div
             key={index}
@@ -42,13 +42,15 @@ export default function BasicLayoutWithCarousel() {
         ))}
       </div>
 
-      {/* Right div - Empty container for your content */}
-      <div className="w-full md:w-1/2 bg-white p-4">
-        <img
-          src="/ornaments-2.png"
-          alt="Art Card"
-          className="w-full h-full object-cover"
-        />
+      {/* Right div - Jewelry display */}
+      <div className="w-full md:w-1/2 h-full bg-white flex items-center justify-center lg:h-auto">
+        <div className="relative w-full h-full max-w-lg mx-auto">
+          <img
+            src="/ornaments-2.png"
+            alt="Art Card"
+            className="w-full h-full object-contain"
+          />
+        </div>
       </div>
     </div>
   );
