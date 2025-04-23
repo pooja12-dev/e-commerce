@@ -8,6 +8,7 @@
     "categories": ["WHITE", "MEDIUM"],
     "addedDate": "2025-04-15"
   },
+
   {
     "id": 2,
     "name": "Swan Earrings",
@@ -448,5 +449,14 @@
     "readyToShip": true,
     "categories": ["SHELL", "SMALL", "WHITE"],
     "addedDate": "2025-03-26"
+  },
+  {
+    "id": 51,
+    "name": "latest",
+    "price": "£1,125",
+    "image": "../Earrings — Grainne Morton/E-3CVGHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["WHITE", "MEDIUM"],
+    "addedDate": "2025-04-2023"
   }
 ]

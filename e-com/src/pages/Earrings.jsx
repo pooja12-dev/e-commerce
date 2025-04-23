@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import "./Earrings.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import JewelryProductDetail from "../pages/JewelryProductDetail";
 
 export default function EarringsShop() {
   const [earrings, setEarrings] = useState([]);
@@ -10,6 +11,7 @@ export default function EarringsShop() {
   const [error, setError] = useState(null);
   const [activeFilter, setActiveFilter] = useState("VIEW ALL");
   const [activeTimeFilter, setActiveTimeFilter] = useState("All Time");
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const filters = [
     "VIEW ALL",
@@ -74,9 +76,38 @@ export default function EarringsShop() {
     return true;
   });
 
+  // Handle product selection
+  const handleProductClick = (earring) => {
+    setSelectedProduct(earring);
+    // You could also use React Router to navigate to a dedicated product page
+    // history.push(`/earrings/${earring.id}`);
+  };
+
+  // Handle closing the product detail view
+  const handleCloseDetail = () => {
+    setSelectedProduct(null);
+  };
+
   if (loading) return <div className="loading">Loading...</div>;
   if (error) return <div className="error">Error: {error}</div>;
 
+  // If a product is selected, show the detail view
+  if (selectedProduct) {
+    return (
+      <>
+        <Header />
+        <div className="product-detail-container">
+          <button onClick={handleCloseDetail} className="back-button">
+            ← Back to Earrings
+          </button>
+          <JewelryProductDetail product={selectedProduct} />
+        </div>
+        <Footer />
+      </>
+    );
+  }
+
+  // Otherwise show the product grid
   return (
     <>
       <Header />
@@ -120,7 +151,11 @@ export default function EarringsShop() {
         {/* Products Grid */}
         <div className="products-grid">
           {timeFilteredEarrings.map((earring) => (
-            <div key={earring.id} className="product-card">
+            <div
+              key={earring.id}
+              className="product-card"
+              onClick={() => handleProductClick(earring)}
+            >
               {/* Ready to Ship Badge */}
               {earring.readyToShip && (
                 <div className="ready-badge">Ready to ship</div>
@@ -144,7 +179,7 @@ export default function EarringsShop() {
           ))}
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }

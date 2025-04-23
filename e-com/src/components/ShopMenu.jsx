@@ -7,8 +7,8 @@ export default function ShopMenu({ isOpen, onClose }) {
       {/* Sidebar Menu */}
       <div
         className={`fixed top-0 left-0 h-full bg-white z-50 transition-all duration-300 shadow-lg
-          ${isOpen ? "w-64 sm:w-72 opacity-100" : "w-0 opacity-0"} 
-          sm:max-w-sm md:max-w-md
+          ${isOpen ? "w-64 sm:w-full opacity-100" : "w-0 opacity-0"} 
+          sm:max-w-screen md:max-w-md
           ${isOpen ? "sm:block" : "hidden"}
           ${isOpen ? "sm:translate-x-0" : "sm:-translate-x-full"}
           ${isOpen ? "sm:opacity-100" : "sm:opacity-0"}
@@ -25,11 +25,11 @@ export default function ShopMenu({ isOpen, onClose }) {
           </div>
 
           <nav className="mt-6">
-            <ul className="space-y-6 text-lg font-atacama  text-gray-700">
+            <ul className="space-y-6  font-atacama  text-[#34474A]">
               <li>
                 <a
                   href="/earrings"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   EARRINGS
                 </a>
@@ -37,7 +37,7 @@ export default function ShopMenu({ isOpen, onClose }) {
               <li>
                 <a
                   href="/necklaces"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   NECKLACES
                 </a>
@@ -45,7 +45,7 @@ export default function ShopMenu({ isOpen, onClose }) {
               <li>
                 <a
                   href="#"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   BRACELETS
                 </a>
@@ -53,7 +53,7 @@ export default function ShopMenu({ isOpen, onClose }) {
               <li>
                 <a
                   href="#"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   RINGS
                 </a>
@@ -61,7 +61,7 @@ export default function ShopMenu({ isOpen, onClose }) {
               <li>
                 <a
                   href="#"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   READY TO SHIP
                 </a>
@@ -69,15 +69,15 @@ export default function ShopMenu({ isOpen, onClose }) {
               <li>
                 <a
                   href="#"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   ONE OF A KIND
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
-                  className="block py-2 hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
+                  href="/gift-cards"
+                  className="block py-2 text-2xl hover:text-gray-900 transition border-b border-transparent hover:border-gray-200"
                 >
                   GIFT CARDS
                 </a>

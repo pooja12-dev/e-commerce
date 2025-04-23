@@ -9,6 +9,7 @@ import Press from "./pages/Press";
 import ShopMenu from "./components/ShopMenu";
 import Earrings from "./pages/Earrings";
 import Necklace from "./pages/Necklace";
+import GiftCards from "./pages/GiftCards";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/shop" element={<ShopMenu />} />
         <Route path="/earrings" element={<Earrings />} />
         <Route path="/necklaces" element={<Necklace />} />
+        <Route path="/gift-cards" element={<GiftCards />} />
 
         {/* Add other routes as needed */}
       </Routes>
