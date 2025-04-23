@@ -41,6 +41,7 @@ function PressGrid() {
                 href="#"
                 imgSrc={src}
                 alt={`Press Feature ${idx + 1}`}
+                loading="lazy" // Lazy loading for improved performance
               />
             </div>
           ))}

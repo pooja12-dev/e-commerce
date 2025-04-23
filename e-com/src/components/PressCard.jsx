@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css"; // Optional CSS for effects
 
 function PressCard({ href, imgSrc, alt }) {
   return (
@@ -9,9 +11,10 @@ function PressCard({ href, imgSrc, alt }) {
       rel="noopener noreferrer"
       tabIndex={0}
     >
-      <img
+      <LazyLoadImage
         src={imgSrc}
         alt={alt || ""}
+        effect="blur" // Blur effect during loading
         className="w-full h-auto object-cover"
       />
     </a>

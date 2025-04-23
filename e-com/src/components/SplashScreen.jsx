@@ -66,18 +66,33 @@ function SplashScreen() {
       }}
     >
       {/* Top navigation */}
-      <nav className="absolute left-0 top-0 w-full flex items-center justify-between px-10 pt-8 text-xs   md:text-sm  hover:bg-white">
+      <nav className="absolute left-0 top-0 w-full h-20 flex items-center justify-between px-10 pt-8 text-xs   md:text-sm  hover:bg-white">
         <div className="flex gap-8 text-[#34474A]">
-          <span className="hover:text-white cursor-pointer">SHOP</span>
-          <span className="hover:text-white cursor-pointer">CAMPAIGNS</span>
-          <span className="hover:text-white cursor-pointer">STOCKISTS</span>
+          <a href="#" className="hover:text-white cursor-pointer">
+            SHOP
+          </a>
+          <a href="#" className="hover:text-white cursor-pointer">
+            CAMPAIGNS
+          </a>
+          <a href="#" className="hover:text-white cursor-pointer">
+            STOCKISTS
+          </a>
         </div>
 
         <div className="flex gap-8 text-[#34474A]">
-          <span className="hover:text-white cursor-pointer">ETHOS</span>
-          <span className="hover:text-white cursor-pointer">PRESS</span>
-          <span className="hover:text-white cursor-pointer">ABOUT</span>
-          <span className="hover:text-white cursor-pointer">BAG (0)</span>
+          <a href="/ethos" className="hover:text-white cursor-pointer">
+            ETHOS
+          </a>
+
+          <a href="/press" className="hover:text-white cursor-pointer">
+            PRESS
+          </a>
+          <a href="/about" className="hover:text-white cursor-pointer">
+            ABOUT
+          </a>
+          <a href="#" className="hover:text-white cursor-pointer">
+            BAG (0)
+          </a>
         </div>
       </nav>
 

@@ -6,9 +6,13 @@
     "image": "../Earrings — Grainne Morton/E-3CVGHigh_720x.jpg",
     "readyToShip": false,
     "categories": ["WHITE", "MEDIUM"],
-    "addedDate": "2025-04-15"
+    "addedDate": "2025-04-15",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
-
   {
     "id": 2,
     "name": "Swan Earrings",
@@ -16,7 +20,12 @@
     "image": "../Earrings — Grainne Morton/E-7CSDHigh_720x.jpg",
     "readyToShip": true,
     "categories": ["WHITE", "LARGE"],
-    "addedDate": "2025-04-20"
+    "addedDate": "2025-04-20",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 3,
@@ -25,7 +34,12 @@
     "image": "../Earrings — Grainne Morton/E-B_SHigh_720x.jpg",
     "readyToShip": false,
     "categories": ["GOLD", "SMALL", "WHITE", "SHELL"],
-    "addedDate": "2025-04-10"
+    "addedDate": "2025-04-10",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 4,
@@ -34,7 +48,12 @@
     "image": "../Earrings — Grainne Morton/E-BBHigh_720x.jpg",
     "readyToShip": false,
     "categories": ["MEDIUM", "BLUE", "RED", "PURPLE"],
-    "addedDate": "2025-04-05"
+    "addedDate": "2025-04-05",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 5,
@@ -43,7 +62,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": true,
     "categories": ["BLUE", "MEDIUM"],
-    "addedDate": "2025-04-18"
+    "addedDate": "2025-04-18",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 6,
@@ -52,7 +76,12 @@
     "image": "../Earrings — Grainne Morton/E-BBHigh_720x.jpg",
     "readyToShip": false,
     "categories": ["GREEN", "LARGE"],
-    "addedDate": "2025-04-22"
+    "addedDate": "2025-04-22",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 7,
@@ -61,7 +90,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": false,
     "categories": ["CAMEO", "MEDIUM"],
-    "addedDate": "2025-03-30"
+    "addedDate": "2025-03-30",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 8,
@@ -70,7 +104,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": true,
     "categories": ["BLACK", "SMALL"],
-    "addedDate": "2025-04-12"
+    "addedDate": "2025-04-12",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 9,
@@ -79,7 +118,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": false,
     "categories": ["RED", "MEDIUM"],
-    "addedDate": "2025-04-03"
+    "addedDate": "2025-04-03",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 10,
@@ -88,7 +132,12 @@
     "image": "../Earrings — Grainne Morton/E-C_LBDHIGH_720x.jpg",
     "readyToShip": true,
     "categories": ["CLOUD", "LARGE"],
-    "addedDate": "2025-04-08"
+    "addedDate": "2025-04-08",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 11,
@@ -97,7 +146,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": false,
     "categories": ["EYE", "BLUE", "MEDIUM"],
-    "addedDate": "2025-03-25"
+    "addedDate": "2025-03-25",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 12,
@@ -106,7 +160,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": true,
     "categories": ["RED", "SMALL"],
-    "addedDate": "2025-04-17"
+    "addedDate": "2025-04-17",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 13,
@@ -115,7 +174,12 @@
     "image": "",
     "readyToShip": false,
     "categories": ["SHELL", "MEDIUM"],
-    "addedDate": "2025-03-15"
+    "addedDate": "2025-03-15",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 14,
@@ -124,7 +188,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": true,
     "categories": ["MEDIUM", "RAINBOW"],
-    "addedDate": "2025-04-19"
+    "addedDate": "2025-04-19",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 15,
@@ -133,7 +202,12 @@
     "image": "/api/placeholder/300/300",
     "readyToShip": false,
     "categories": ["BLACK", "LARGE"],
-    "addedDate": "2025-04-11"
+    "addedDate": "2025-04-11",
+    "materials": "24kt gold vermeil, hand-cut stones",
+    "fitting": "Post-back",
+    "length": "4.5 cm",
+    "width": "2 cm",
+    "weight": "15 g"
   },
   {
     "id": 16,
@@ -457,6 +531,6 @@
     "image": "../Earrings — Grainne Morton/E-3CVGHigh_720x.jpg",
     "readyToShip": false,
     "categories": ["WHITE", "MEDIUM"],
-    "addedDate": "2025-04-2023"
+    "addedDate": "2025-04-23"
   }
 ]

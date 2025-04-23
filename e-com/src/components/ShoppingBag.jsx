@@ -1,26 +1,30 @@
 import React from "react";
 
-const ShoppingBag = ({
-  itemCount,
-  items = [],
-  onClose,
-  onCheckout,
-  onRemove,
-}) => {
+const ShoppingBag = ({ isOpen, onClose, items = [], onRemove, onCheckout }) => {
+  const itemCount = items.length;
   const hasItems = itemCount > 0;
+
+  if (!isOpen) return null;
 
   return (
     <div className="relative">
       {/* Shopping Bag Container */}
-      <div className="fixed inset-0 z-50 flex justify-end sm:absolute sm:inset-auto sm:right-0 sm:top-0 sm:w-96">
-        {/* Backdrop overlay on small screens */}
+      <div className="fixed inset-0 z-50 flex justify-end">
+        {/* Backdrop overlay on smaller screens */}
         <div
-          className="absolute inset-0 bg-black bg-opacity-30 sm:hidden"
+          className="absolute inset-0 bg-black bg-opacity-30 xl:bg-opacity-30"
           onClick={onClose}
         />
 
         {/* Bag Panel */}
-        <div className="relative flex h-full w-full flex-col bg-amber-100 sm:w-96 sm:h-auto sm:shadow-lg">
+        <div
+          className="relative flex h-full w-full flex-col  sm:w-96 xl:w-96 xl:max-w-md"
+          style={{
+            backgroundImage: 'url("/brown-paper.webp")',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           {/* Header */}
           <div className="flex items-center justify-between border-b border-amber-200 p-4">
             <h2 className="text-lg font-medium text-gray-800">YOUR BAG</h2>
@@ -54,7 +58,7 @@ const ShoppingBag = ({
                     >
                       <div className="h-20 w-20 flex-shrink-0 bg-white p-2">
                         <img
-                          src={item.image || "/api/placeholder/80/80"}
+                          src={item.image}
                           alt={item.name}
                           className="h-full w-full object-contain"
                         />
@@ -62,7 +66,7 @@ const ShoppingBag = ({
                       <div className="ml-4 flex-1">
                         <h3 className="text-gray-800">{item.name}</h3>
                         <p className="text-lg font-medium text-gray-800">
-                          £{item.price.toFixed(2)}
+                          {item.price}
                         </p>
                       </div>
                       <button
@@ -106,10 +110,7 @@ const ShoppingBag = ({
                       SUBTOTAL
                     </h3>
                     <p className="text-lg font-medium text-gray-800">
-                      £
-                      {items
-                        .reduce((sum, item) => sum + item.price, 0)
-                        .toFixed(2)}
+                      {calculateSubtotal(items)}
                     </p>
                   </div>
 
@@ -128,4 +129,18 @@ const ShoppingBag = ({
     </div>
   );
 };
+
+// Helper function to calculate subtotal
+const calculateSubtotal = (items) => {
+  // Handle different price formats (£1,125 or £1125)
+  const total = items.reduce((sum, item) => {
+    // Extract numeric value from price string
+    const priceValue = parseFloat(item.price.replace(/[^0-9.]/g, ""));
+    return sum + priceValue;
+  }, 0);
+
+  // Format as currency
+  return `£${total.toLocaleString()}`;
+};
+
 export default ShoppingBag;
