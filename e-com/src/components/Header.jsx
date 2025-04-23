@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ShopMenu from "./ShopMenu";
 
 const navLeft = [
   { name: "Shop", href: "#" },
@@ -8,14 +9,22 @@ const navLeft = [
 
 const navRight = [
   { name: "Ethos", href: "/ethos" },
-  { name: "Press", href: "#" },
+  { name: "Press", href: "/press" },
   { name: "About", href: "/about" },
-  { name: "Bag (0)", href: "#" },
+  { name: "Bag (0)", href: "/cart" },
 ];
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  const toggleBagForm = () => {};
+  const toggleMenu = (e) => {
+    // Prevent default behavior only for the Shop link
+    if (e && navLeft[0].name === "SHOP") {
+      e.preventDefault();
+    }
+    setIsMenuOpen(!isMenuOpen);
+  };
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
@@ -25,11 +34,12 @@ function Header() {
       <header className="w-full hidden lg:flex md:hidden h-20 uppercase !bg-transparent hover:bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between py-6 px-4 md:px-8 w-full">
           <nav className="flex-1 flex gap-5 text-xs md:text-sm justify-start font-serif">
-            {navLeft.map((link) => (
+            {navLeft.map((link, index) => (
               <a
                 key={link.name}
                 href={link.href}
                 className="text-gray-700 hover:text-neutral-900 transition-colors"
+                onClick={(e) => (index === 0 ? toggleMenu(e) : null)}
               >
                 {link.name}
               </a>
@@ -53,11 +63,12 @@ function Header() {
             </a>
           </div>
           <nav className="flex-1 flex gap-5 text-xs md:text-sm justify-end font-serif">
-            {navRight.map((link) => (
+            {navRight.map((link, index) => (
               <a
                 key={link.name}
                 href={link.href}
                 className="text-gray-700 hover:text-neutral-900 transition-colors"
+                onClick={(e) => (index === 0 ? toggleMenu(e) : null)}
               >
                 {link.name}
               </a>
@@ -116,7 +127,7 @@ function Header() {
           </div>
 
           <div className="text-sm font-medium">
-            <button>BAG (0)</button>
+            <button onClick={toggleBagForm}>BAG (0)</button>
           </div>
         </div>
       </header>
@@ -125,11 +136,12 @@ function Header() {
       <header className="w-full hidden md:flex lg:hidden h-20 uppercase bg-transparent border-b border-gray-200">
         <div className="max-w-4xl mx-auto flex items-center justify-between py-6 px-4 w-full">
           <nav className="flex gap-4 text-xs justify-start font-serif">
-            {navLeft.map((link) => (
+            {navLeft.map((link, index) => (
               <a
                 key={link.name}
                 href={link.href}
                 className="text-gray-700 hover:text-neutral-900 transition-colors"
+                onClick={(e) => (index === 0 ? toggleMenu(e) : null)}
               >
                 {link.name}
               </a>
@@ -163,6 +175,9 @@ function Header() {
         </div>
       </header>
       {/*hidden on large and small*/}
+
+      {/* Shop Menu Component */}
+      <ShopMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
     </>
   );
 }

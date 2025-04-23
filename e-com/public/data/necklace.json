@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Pearl Necklace",
+    "price": "£850",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["CLASSIC", "PEARL"],
+    "addedDate": "2025-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Diamond Choker",
+    "price": "£5,200",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["LUXURY", "DIAMOND"],
+    "addedDate": "2025-04-12"
+  },
+  {
+    "id": 3,
+    "name": "Rose Gold Pendant",
+    "price": "£1,250",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["MODERN", "ROSE GOLD"],
+    "addedDate": "2025-04-15"
+  },
+  {
+    "id": 4,
+    "name": "Emerald Charm Necklace",
+    "price": "£950",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["GREEN", "CHARM"],
+    "addedDate": "2025-04-17"
+  },
+  {
+    "id": 5,
+    "name": "Sapphire Teardrop Necklace",
+    "price": "£1,700",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLUE", "SAPPHIRE"],
+    "addedDate": "2025-04-18"
+  },
+  {
+    "id": 6,
+    "name": "Emerald Statement Earrings",
+    "price": "£1,345",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["GREEN", "LARGE"],
+    "addedDate": "2025-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Vintage Gold Necklace",
+    "price": "£3,400",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["VINTAGE", "GOLD"],
+    "addedDate": "2025-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Platinum Heart Locket",
+    "price": "£2,150",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["SILVER", "LOCKET"],
+    "addedDate": "2025-04-19"
+  },
+  {
+    "id": 9,
+    "name": "Ruby Blossom Necklace",
+    "price": "£2,800",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["RED", "RUBY"],
+    "addedDate": "2025-04-15"
+  },
+  {
+    "id": 10,
+    "name": "Onyx Crescent Necklace",
+    "price": "£1,600",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLACK", "ONYX"],
+    "addedDate": "2025-04-11"
+  }
+]

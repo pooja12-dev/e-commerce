@@ -1,0 +1,197 @@
+/* Main container */
+.earrings-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Title styling */
+.earrings-title {
+  font-family: serif;
+  font-size: 28px;
+  color: #4a4a4a;
+  margin: 32px 0 16px 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+/* Filters container */
+.filters-container {
+  margin-bottom: 24px;
+}
+
+/* Category filters */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filter-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.filter-button:hover {
+  color: #1e66f5;
+}
+
+.filter-button.active {
+  color: #1e66f5;
+  font-weight: 500;
+}
+
+/* Time filters */
+.time-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.time-filter-button {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.time-filter-button.active {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+
+/* Products grid for small screens (default) */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* Product card */
+.product-card {
+  position: relative;
+  border: 1px solid #eee;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ready to ship badge */
+.ready-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  font-size: 10px;
+  padding: 4px 8px;
+  z-index: 1;
+}
+
+/* Product image container */
+.product-image-container {
+  aspect-ratio: 1/1;
+  margin-bottom: 16px;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Product info */
+.product-info {
+  margin-top: auto;
+}
+
+.product-name {
+  font-family: serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  font-family: serif;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) {
+  .earrings-container {
+    padding: 0 24px;
+  }
+
+  .filter-button {
+    font-size: 13px;
+    margin-right: 12px;
+  }
+
+  .category-filters {
+    gap: 12px;
+  }
+
+  .product-card {
+    padding: 12px;
+  }
+
+  .product-name {
+    font-size: 15px;
+  }
+}
+
+/* Large screens (lg) */
+@media (min-width: 1024px) {
+  .earrings-title {
+    font-size: 32px;
+    margin: 40px 0 24px 0;
+  }
+
+  .filter-button {
+    font-size: 14px;
+    margin-right: 16px;
+  }
+
+  .category-filters {
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .product-card {
+    padding: 16px;
+  }
+
+  .product-name {
+    font-size: 16px;
+  }
+
+  .product-price {
+    font-size: 15px;
+  }
+
+  .ready-badge {
+    font-size: 11px;
+  }
+}

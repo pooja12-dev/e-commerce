@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Mosaic Flower Drop Earrings",
+    "price": "£1,125",
+    "image": "../Earrings — Grainne Morton/E-3CVGHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["WHITE", "MEDIUM"],
+    "addedDate": "2025-04-15"
+  },
+  {
+    "id": 2,
+    "name": "Swan Earrings",
+    "price": "£1,235",
+    "image": "../Earrings — Grainne Morton/E-7CSDHigh_720x.jpg",
+    "readyToShip": true,
+    "categories": ["WHITE", "LARGE"],
+    "addedDate": "2025-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Golden Swans Earrings",
+    "price": "£1,050",
+    "image": "../Earrings — Grainne Morton/E-B_SHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["GOLD", "SMALL", "WHITE", "SHELL"],
+    "addedDate": "2025-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Glove and Face Charm Earrings",
+    "price": "£825",
+    "image": "../Earrings — Grainne Morton/E-BBHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["MEDIUM", "BLUE", "RED", "PURPLE"],
+    "addedDate": "2025-04-05"
+  },
+  {
+    "id": 5,
+    "name": "Azure Teardrop Earrings",
+    "price": "£950",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLUE", "MEDIUM"],
+    "addedDate": "2025-04-18"
+  },
+  {
+    "id": 6,
+    "name": "Emerald Statement Earrings",
+    "price": "£1,345",
+    "image": "../Earrings — Grainne Morton/E-BBHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["GREEN", "LARGE"],
+    "addedDate": "2025-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Vintage Cameo Drops",
+    "price": "£875",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["CAMEO", "MEDIUM"],
+    "addedDate": "2025-03-30"
+  },
+  {
+    "id": 8,
+    "name": "Obsidian Night Earrings",
+    "price": "£790",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLACK", "SMALL"],
+    "addedDate": "2025-04-12"
+  },
+  {
+    "id": 9,
+    "name": "Coral Reef Hoops",
+    "price": "£980",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["RED", "MEDIUM"],
+    "addedDate": "2025-04-03"
+  },
+  {
+    "id": 10,
+    "name": "Moonstone Cloud Earrings",
+    "price": "£1,150",
+    "image": "../Earrings — Grainne Morton/E-C_LBDHIGH_720x.jpg",
+    "readyToShip": true,
+    "categories": ["CLOUD", "LARGE"],
+    "addedDate": "2025-04-08"
+  },
+  {
+    "id": 11,
+    "name": "Ocean Eye Pendants",
+    "price": "£895",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["EYE", "BLUE", "MEDIUM"],
+    "addedDate": "2025-03-25"
+  },
+  {
+    "id": 12,
+    "name": "Ruby Constellation Earrings",
+    "price": "£1,450",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["RED", "SMALL"],
+    "addedDate": "2025-04-17"
+  },
+  {
+    "id": 13,
+    "name": "Pearlescent Shell Drops",
+    "price": "£865",
+    "image": "",
+    "readyToShip": false,
+    "categories": ["SHELL", "MEDIUM"],
+    "addedDate": "2025-03-15"
+  },
+  {
+    "id": 14,
+    "name": "Amber Horizon Earrings",
+    "price": "£920",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["MEDIUM", "RAINBOW"],
+    "addedDate": "2025-04-19"
+  },
+  {
+    "id": 15,
+    "name": "Onyx Statement Earrings",
+    "price": "£1,050",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLACK", "LARGE"],
+    "addedDate": "2025-04-11"
+  },
+  {
+    "id": 16,
+    "name": "Sapphire Teardrop Earrings",
+    "price": "£1,225",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLUE", "MEDIUM"],
+    "addedDate": "2025-04-09"
+  },
+  {
+    "id": 17,
+    "name": "Crystal Cloud Hoops",
+    "price": "£780",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["CLOUD", "SMALL"],
+    "addedDate": "2025-03-27"
+  },
+  {
+    "id": 18,
+    "name": "Antique Cameo Charms",
+    "price": "£940",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["CAMEO", "MEDIUM"],
+    "addedDate": "2025-04-21"
+  },
+  {
+    "id": 19,
+    "name": "Jade Drop Earrings",
+    "price": "£1,100",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["GREEN", "MEDIUM"],
+    "addedDate": "2025-04-02"
+  },
+  {
+    "id": 20,
+    "name": "Rainbow Quartz Studs",
+    "price": "£750",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["RAINBOW", "SMALL"],
+    "addedDate": "2025-04-16"
+  },
+  {
+    "id": 21,
+    "name": "Coral Branch Earrings",
+    "price": "£890",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["RED", "SMALL"],
+    "addedDate": "2025-03-20"
+  },
+  {
+    "id": 22,
+    "name": "Mother of Pearl Dangle",
+    "price": "£980",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["SHELL", "WHITE"],
+    "addedDate": "2025-04-14"
+  },
+  {
+    "id": 23,
+    "name": "Emerald Eye Hoops",
+    "price": "£1,275",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["EYE", "GREEN", "MEDIUM"],
+    "addedDate": "2025-04-07"
+  },
+  {
+    "id": 24,
+    "name": "Monochrome Statement Earrings",
+    "price": "£995",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLACK", "WHITE", "LARGE"],
+    "addedDate": "2025-04-01"
+  },
+  {
+    "id": 25,
+    "name": "Turquoise Drop Earrings",
+    "price": "£845",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLUE", "SMALL"],
+    "addedDate": "2025-03-22"
+  },
+  {
+    "id": 26,
+    "name": "Ruby Chandelier Earrings",
+    "price": "£1,395",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["RED", "LARGE"],
+    "addedDate": "2025-04-13"
+  },
+  {
+    "id": 27,
+    "name": "Iridescent Shell Earrings",
+    "price": "£925",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["SHELL", "RAINBOW", "MEDIUM"],
+    "addedDate": "2025-04-06"
+  },
+  {
+    "id": 28,
+    "name": "Midnight Stud Earrings",
+    "price": "£680",
+    "image": "../Earrings — Grainne Morton/GM02-HIGH-RES_720x.jpg",
+    "readyToShip": true,
+    "categories": ["BLACK", "SMALL"],
+    "addedDate": "2025-03-29"
+  },
+  {
+    "id": 29,
+    "name": "Jade Teardrop Earrings",
+    "price": "£905",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["GREEN", "MEDIUM"],
+    "addedDate": "2025-04-15"
+  },
+  {
+    "id": 30,
+    "name": "Crystal Cloud Dangles",
+    "price": "£1,050",
+    "image": "../Earrings — Grainne Morton/E-GIR1High_720x.jpg",
+    "readyToShip": true,
+    "categories": ["CLOUD", "SMALL", "GOLD", "WHITE"],
+    "addedDate": "2025-04-04"
+  },
+  {
+    "id": 31,
+    "name": "Sapphire Stud Earrings",
+    "price": "£795",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLUE", "SMALL"],
+    "addedDate": "2025-03-18"
+  },
+  {
+    "id": 32,
+    "name": "Vintage Cameo Earrings",
+    "price": "£1,150",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["CAMEO", "MEDIUM"],
+    "addedDate": "2025-04-23"
+  },
+  {
+    "id": 33,
+    "name": "Mystic Eye Drops",
+    "price": "£975",
+    "image": "../Earrings — Grainne Morton/E-GFACHigh_720x.jpg",
+    "readyToShip": false,
+    "categories": ["EYE", "RAINBOW", "MEDIUM"],
+    "addedDate": "2025-04-10"
+  },
+  {
+    "id": 34,
+    "name": "Ivory Statement Earrings",
+    "price": "£1,200",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["WHITE", "LARGE"],
+    "addedDate": "2025-03-25"
+  },
+  {
+    "id": 35,
+    "name": "Coral Reef Drops",
+    "price": "£885",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["RED", "SHELL", "MEDIUM"],
+    "addedDate": "2025-04-17"
+  },
+  {
+    "id": 36,
+    "name": "Emerald Dangle Earrings",
+    "price": "£1,325",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["GREEN", "LARGE"],
+    "addedDate": "2025-04-09"
+  },
+  {
+    "id": 37,
+    "name": "Petite Shell Earrings",
+    "price": "£675",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["SHELL", "SMALL"],
+    "addedDate": "2025-03-31"
+  },
+  {
+    "id": 38,
+    "name": "Crystal Cloud Studs",
+    "price": "£725",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["CLOUD", "SMALL"],
+    "addedDate": "2025-04-19"
+  },
+  {
+    "id": 39,
+    "name": "Onyx Dangle Earrings",
+    "price": "£895",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLACK", "MEDIUM"],
+    "addedDate": "2025-04-11"
+  },
+  {
+    "id": 40,
+    "name": "Turquoise Statement Earrings",
+    "price": "£1,175",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["BLUE", "LARGE"],
+    "addedDate": "2025-04-03"
+  },
+  {
+    "id": 41,
+    "name": "Ivory Teardrop Earrings",
+    "price": "£950",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["WHITE", "MEDIUM"],
+    "addedDate": "2025-03-24"
+  },
+  {
+    "id": 42,
+    "name": "Amethyst Stud Earrings",
+    "price": "£750",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["PURPLE", "SMALL"],
+    "addedDate": "2025-04-18"
+  },
+  {
+    "id": 43,
+    "name": "Ruby Chandelier Earrings",
+    "price": "£1,425",
+    "image": "./Earrings — Grainne Morton/E-DLBD2High_720x.jpg",
+    "readyToShip": false,
+    "categories": ["RED", "LARGE"],
+    "addedDate": "2025-04-08"
+  },
+  {
+    "id": 44,
+    "name": "Jade Stud Earrings",
+    "price": "£695",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["GREEN", "SMALL"],
+    "addedDate": "2025-03-19"
+  },
+  {
+    "id": 45,
+    "name": "Sapphire Drop Earrings",
+    "price": "£1,095",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLUE", "MEDIUM"],
+    "addedDate": "2025-04-12"
+  },
+  {
+    "id": 46,
+    "name": "Cameo Statement Earrings",
+    "price": "£1,350",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["CAMEO", "LARGE"],
+    "addedDate": "2025-04-05"
+  },
+  {
+    "id": 47,
+    "name": "Black Pearl Earrings",
+    "price": "£975",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["BLACK", "MEDIUM"],
+    "addedDate": "2025-03-28"
+  },
+  {
+    "id": 48,
+    "name": "Crystal Eye Hoops",
+    "price": "£850",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["EYE", "MEDIUM"],
+    "addedDate": "2025-04-14"
+  },
+  {
+    "id": 49,
+    "name": "Rainbow Quartz Dangles",
+    "price": "£925",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": false,
+    "categories": ["RAINBOW", "MEDIUM"],
+    "addedDate": "2025-04-07"
+  },
+  {
+    "id": 50,
+    "name": "Silver Shell Earrings",
+    "price": "£795",
+    "image": "/api/placeholder/300/300",
+    "readyToShip": true,
+    "categories": ["SHELL", "SMALL", "WHITE"],
+    "addedDate": "2025-03-26"
+  }
+]
